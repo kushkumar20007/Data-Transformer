@@ -731,5 +731,7 @@ Execute the queries from **01 to 17** in MySQL.
 > 💬 **“Quality is our Motto.”**
 
 ---
+👨‍💻 Author
+Name: Kush Kumar
 
 ### ⭐ If this project helps you practice SQL, consider giving the repository a star!
