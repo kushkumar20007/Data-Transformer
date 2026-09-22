@@ -129,6 +129,9 @@ Stores employee and salary information.
 **Relationship:** `Customers.CustomerID` → `Orders.CustomerID`
 
 ---
+## 🎥 Video Demonstration
+
+[![Watch Video](https://img.shields.io/badge/🎥-Watch_Video-red?style=for-the-badge)](video)
 
 # 🧪 SQL Query Tasks
 
