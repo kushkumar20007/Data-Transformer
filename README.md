@@ -131,7 +131,7 @@ Stores employee and salary information.
 ---
 ## 🎥 Video Demonstration
 
-[![Watch Video](https://img.shields.io/badge/🎥-Watch_Video-red?style=for-the-badge)](video)
+[![Watch Video](https://img.shields.io/badge/🎥-Watch_Video-red?style=for-the-badge)]([video](https://drive.google.com/file/d/1Po6kM7qdcSTPI-Gy0muNxCA4l0_3NoVt/view?usp=sharing))
 
 # 🧪 SQL Query Tasks
 
