@@ -153,6 +153,8 @@ FROM Orders AS o
 INNER JOIN Customers AS c
     ON o.CustomerID = c.CustomerID;
 ```
+<img width="961" height="135" alt="image" src="https://github.com/user-attachments/assets/401101c2-2ee8-4c1c-b554-159fe3132829" />
+
 
 ### 🧠 Explanation
 
@@ -179,6 +181,8 @@ FROM Customers AS c
 LEFT JOIN Orders AS o
     ON c.CustomerID = o.CustomerID;
 ```
+<img width="985" height="125" alt="image" src="https://github.com/user-attachments/assets/dd756db4-a821-41b3-9745-130b88b006da" />
+
 
 ### 🧠 Explanation
 
@@ -204,6 +208,7 @@ FROM Customers AS c
 RIGHT JOIN Orders AS o
     ON c.CustomerID = o.CustomerID;
 ```
+<img width="862" height="104" alt="image" src="https://github.com/user-attachments/assets/b925dd2d-1e49-4d85-be16-8ad7639e0d05" />
 
 ### 🧠 Explanation
 
@@ -244,6 +249,7 @@ FROM Customers AS c
 RIGHT JOIN Orders AS o
     ON c.CustomerID = o.CustomerID;
 ```
+<img width="963" height="113" alt="image" src="https://github.com/user-attachments/assets/3d358c2a-db32-49a0-9ce4-cac65770db5e" />
 
 ### 🧠 Explanation
 
@@ -273,6 +279,7 @@ WHERE o.TotalAmount > (
     FROM Orders
 );
 ```
+<img width="812" height="102" alt="image" src="https://github.com/user-attachments/assets/a7a0f1b6-270f-4dfa-87ad-0e8a3e6318d9" />
 
 ### 🧠 Explanation
 
@@ -282,6 +289,7 @@ The inner query calculates the average order amount:
 SELECT AVG(TotalAmount)
 FROM Orders;
 ```
+<img width="756" height="88" alt="image" src="https://github.com/user-attachments/assets/a0ede952-5d89-43f5-9c43-90c7cdecafa3" />
 
 The outer query then finds orders greater than that average.
 
@@ -305,6 +313,7 @@ WHERE Salary > (
     FROM Employees
 );
 ```
+<img width="824" height="94" alt="image" src="https://github.com/user-attachments/assets/27d4a726-6bbc-48fa-9578-18dba6f15a3a" />
 
 ### 🧠 Explanation
 
@@ -326,6 +335,7 @@ SELECT
     MONTH(OrderDate) AS OrderMonth
 FROM Orders;
 ```
+<img width="849" height="103" alt="image" src="https://github.com/user-attachments/assets/42b46994-4e63-4ba1-b4b5-5bab7599e38f" />
 
 ### 🧠 Explanation
 
@@ -346,6 +356,7 @@ SELECT
     DATEDIFF(CURRENT_DATE, OrderDate) AS DaysDifference
 FROM Orders;
 ```
+<img width="796" height="105" alt="image" src="https://github.com/user-attachments/assets/ed4af24d-9d39-425c-bd60-79c277d2b338" />
 
 ### 🧠 Explanation
 
@@ -365,6 +376,7 @@ SELECT
     DATE_FORMAT(OrderDate, '%d-%b-%Y') AS FormattedDate
 FROM Orders;
 ```
+<img width="928" height="96" alt="image" src="https://github.com/user-attachments/assets/d489ce0a-a02b-4809-a4b6-0de3bb4f6dbb" />
 
 ### 🧠 Explanation
 
@@ -387,6 +399,7 @@ SELECT
     CONCAT(FirstName, ' ', LastName) AS FullName
 FROM Customers;
 ```
+<img width="787" height="97" alt="image" src="https://github.com/user-attachments/assets/40fd2135-cffe-4368-a489-a6aa9fc850fc" />
 
 ### 🧠 Explanation
 
@@ -411,6 +424,7 @@ SELECT
     REPLACE(FirstName, 'John', 'Jonathan') AS UpdatedName
 FROM Customers;
 ```
+<img width="778" height="100" alt="image" src="https://github.com/user-attachments/assets/0c117028-4a2a-45ff-b0df-d48b2c9ef676" />
 
 ### 🧠 Explanation
 
@@ -429,6 +443,7 @@ SELECT
     LOWER(LastName) AS LastName_Lower
 FROM Customers;
 ```
+<img width="1037" height="96" alt="image" src="https://github.com/user-attachments/assets/69d1ae5d-eb85-49f2-9194-6dfd962d1c48" />
 
 ### 🧠 Explanation
 
@@ -454,6 +469,7 @@ SELECT
     TRIM(Email) AS CleanEmail
 FROM Customers;
 ```
+<img width="1067" height="104" alt="image" src="https://github.com/user-attachments/assets/a7928da0-ccda-4196-94c5-61790efdab80" />
 
 ### 🧠 Explanation
 
@@ -476,6 +492,7 @@ SELECT
     ) AS RunningTotal
 FROM Orders;
 ```
+<img width="1000" height="110" alt="image" src="https://github.com/user-attachments/assets/c4152ae6-dde3-4bf5-8396-beb55f1f1232" />
 
 ### 🧠 Explanation
 
@@ -504,6 +521,7 @@ SELECT
     ) AS OrderRank
 FROM Orders;
 ```
+<img width="1069" height="99" alt="image" src="https://github.com/user-attachments/assets/53dacbd6-ce4d-4f5d-8de0-c5ea04b7bf72" />
 
 ### 🧠 Explanation
 
@@ -529,6 +547,7 @@ SELECT
     END AS Discount
 FROM Orders;
 ```
+<img width="1035" height="104" alt="image" src="https://github.com/user-attachments/assets/c536ffa4-ea44-450f-92de-f11c97549a97" />
 
 ### 🧠 Explanation
 
@@ -562,6 +581,7 @@ SELECT
     END AS SalaryCategory
 FROM Employees;
 ```
+<img width="885" height="109" alt="image" src="https://github.com/user-attachments/assets/44237242-fcc4-4198-9eff-fcd3878cac76" />
 
 ### 🧠 Explanation
 
