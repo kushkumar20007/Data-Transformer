@@ -693,8 +693,34 @@ Data-Transformer/
 ```
 
 ---
-<img width="861" height="545" alt="image" src="https://github.com/user-attachments/assets/2ac7b7b3-b30e-40f7-aa82-6dfbac24a55d" />
+┌─────────────────────┐
+│      CUSTOMERS      │
+├─────────────────────┤
+│ PK CustomerID       │
+│    CustomerName     │
+│    Email            │
+│    Phone            │
+└──────────┬──────────┘
+           │
+           │ 1 : Many
+           ▼
+┌─────────────────────┐
+│       ORDERS        │
+├─────────────────────┤
+│ PK OrderID          │
+│ FK CustomerID       │
+│    OrderDate        │
+│    Amount           │
+└─────────────────────┘
 
+┌─────────────────────┐
+│      EMPLOYEES      │
+├─────────────────────┤
+│ PK EmployeeID       │
+│    EmployeeName     │
+│    Department       │
+│    Salary            │
+└─────────────────────┘
 # ▶️ How to Run the Project
 
 ### 1️⃣ Start MySQL
